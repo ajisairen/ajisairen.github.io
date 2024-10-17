@@ -73,7 +73,7 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="https://drive.google.com/file/d/1rC_s4Nu71R_B2vgHHdH4_6TnAF-Ly5Hl/view?usp=sharing">
+          <LinkItem href="https://drive.google.com/file/d/1MOHhD0uQvwpC7ApJrQtur4eIDnRgEIck/view?usp=sharing">
             Resume
           </LinkItem>
         </Stack>
