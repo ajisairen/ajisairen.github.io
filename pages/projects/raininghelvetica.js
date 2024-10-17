@@ -4,10 +4,10 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  // AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, ProjectImage, Meta } from '../../components/project'
+import { Title, /**ProjectImage, **/Meta } from '../../components/project'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -15,7 +15,7 @@ const Project = () => (
   <Layout title="It's Raining Helvetica">
     <Container>
       <Title>
-        It's Raining Helvetica <Badge>Fall 2024</Badge>
+        It&aposs Raining Helvetica <Badge>Fall 2024</Badge>
       </Title>
       <P>Description</P>
       <List ml={4} my={4}>
