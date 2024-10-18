@@ -28,7 +28,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       href={href}
       scroll={false}
       p={2}
-      bg={active ? 'grassTeal' : undefined}
+      bg={active ? 'glassTeal' : undefined}
       color={active ? '#202023' : inactiveColor}
       target={target}
       {...props}
@@ -69,6 +69,7 @@ const Navbar = props => {
             <Logo />
           </Heading>
         </Flex>
+
         <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
@@ -83,7 +84,15 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="https://drive.google.com/file/d/1kOLMm54MJkE9_ZG8AmqIhd3iRCz1xzUv/view?usp=sharing" >
+          <LinkItem
+            target="_blank"
+            href="https://drive.google.com/file/d/1kOLMm54MJkE9_ZG8AmqIhd3iRCz1xzUv/view?usp=sharing"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
             Resume
           </LinkItem>
           <LinkItem
@@ -117,7 +126,10 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/projects">
                   <MenuItem as={Link}>Projects</MenuItem>
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://drive.google.com/file/d/1kOLMm54MJkE9_ZG8AmqIhd3iRCz1xzUv/view?usp=sharing">
+                <MenuItem
+                  as={MenuLink}
+                  href="https://drive.google.com/file/d/1kOLMm54MJkE9_ZG8AmqIhd3iRCz1xzUv/view?usp=sharing"
+                >
                   <MenuItem as={Link}>Resume</MenuItem>
                 </MenuItem>
                 <MenuItem
