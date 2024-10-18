@@ -81,6 +81,9 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
+          <LinkItem href="/art" path={path}>
+            Art
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://drive.google.com/file/d/1kOLMm54MJkE9_ZG8AmqIhd3iRCz1xzUv/view?usp=sharing"
@@ -122,6 +125,9 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/projects">
                   <MenuItem as={Link}>Projects</MenuItem>
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/art">
+                  <MenuItem as={Link}>Art</MenuItem>
                 </MenuItem>
                 <MenuItem
                   as={MenuLink}
