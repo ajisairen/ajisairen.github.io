@@ -10,7 +10,7 @@ import {
   // ListItem,
   Icon,
   Stack,
-  Text,
+  Text
   // SimpleGrid,
   // useColorModeValue
 } from '@chakra-ui/react'
@@ -95,7 +95,7 @@ const Page = () => {
             About
           </Heading>
           <Paragraph>
-            Hello, my name is Serena. I&apos;m a Junior studying Computer
+            Hello, my name is Serena, and I&apos;m a Junior studying Computer
             Science at the University of Minnesota-Twin Cities. I&apos;m
             familiar with Software Development, but I&apos;m working to expand
             my knowledge into web dev, game design and development, and mobile
@@ -118,7 +118,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2004</BioYear>
-            Born in Toronto, Canada.
+            Born in Toronto, Ontario.
           </BioSection>
           <BioSection>
             <BioYear>2016</BioYear>

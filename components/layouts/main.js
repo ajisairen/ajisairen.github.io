@@ -7,6 +7,8 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=devicee-width, initial-scale=1" />
+        <meta content="Embed Title" property="og:title" />
+        <meta content="Site Description" property="og:description" />
         <title>Serena Xin - Homepage</title>
       </Head>
 
