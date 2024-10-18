@@ -7,8 +7,14 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=devicee-width, initial-scale=1" />
-        <meta content="Embed Title" property="og:title" />
-        <meta content="Site Description" property="og:description" />
+        <meta content="Serena Xin" property="og:title" />
+        <meta content="Serena's Homepage" property="og:description" />
+        <meta
+          content="https://ajisairen.github.io/"
+          property="og:url"
+        />
+        <meta content="/images/card.png" property="og:image" />
+        <meta content="#9576BC" data-react-helmet="true" name="theme-color" />
         <title>Serena Xin - Homepage</title>
       </Head>
 
