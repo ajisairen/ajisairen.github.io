@@ -6,13 +6,13 @@ import {
   Heading,
   Image,
   Link,
-  List,
-  ListItem,
+  // List,
+  // ListItem,
   Icon,
   Stack,
   Text,
   // SimpleGrid,
-  useColorModeValue
+  // useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
