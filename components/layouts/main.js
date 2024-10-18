@@ -7,8 +7,9 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=devicee-width, initial-scale=1" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta content="Serena Xin" property="og:title" />
-        <meta content="Serena's Homepage" property="og:description" />
+        <meta content="Serena's Personal Portfolio Website" property="og:description" />
         <meta
           content="https://ajisairen.github.io/"
           property="og:url"
