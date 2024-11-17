@@ -28,6 +28,13 @@ const components = {
       color: mode('#3d7aed', '#ff63c3')(props),
       textUnderlineOffset: 3
     })
+  },
+  Modal: {
+    baseStyle: props => ({
+      dialog: {
+        bg: mode('#f0e7db', '#202023')(props),
+      }
+    })
   }
 }
 

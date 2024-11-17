@@ -1,5 +1,18 @@
 import NextLink from 'next/link'
-import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
+import {
+  Heading,
+  Box,
+  Image,
+  Link,
+  Badge,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure
+} from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 export const Title = ({ children }) => (
@@ -17,9 +30,33 @@ export const Title = ({ children }) => (
   </Box>
 )
 
-export const WallpaperImage = ({ src, alt }) => (
-  <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
-)
+export const ArtImage = ({ src, alt }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+
+  return (
+    <Box>
+      <Image
+        borderRadius="lg"
+        w="full"
+        src={src}
+        alt={alt}
+        mb={4}
+        onClick={onOpen}
+        cursor="pointer"
+      />
+      <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size={'xl'} isCentered>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>{alt}</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <Image src={src} alt={alt} borderRadius="lg" w="full" mb={4} />
+          </ModalBody>
+        </ModalContent>
+      </Modal>
+    </Box>
+  )
+}
 
 export const Meta = ({ children }) => (
   <Badge colorScheme="green" mr={2}>

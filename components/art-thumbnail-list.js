@@ -1,5 +1,5 @@
 import { SimpleGrid } from '@chakra-ui/react'
-import { ProjectImage } from './project'
+import { ArtImage } from './art'
 
 const ArtThumbnailList = ({ numOfImages, urlForImage, alt }) => {
   return (
@@ -7,7 +7,7 @@ const ArtThumbnailList = ({ numOfImages, urlForImage, alt }) => {
       {Array.from(Array(numOfImages).keys())
         .map(i => i + 1)
         .map(i => (
-          <ProjectImage key={i} src={urlForImage(i)} alt={`${alt} ${i}`} />
+          <ArtImage key={i} src={urlForImage(i)} alt={`${alt} ${i}`} />
         ))}
     </SimpleGrid>
   )
