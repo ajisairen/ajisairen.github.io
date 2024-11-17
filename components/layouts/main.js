@@ -7,19 +7,19 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=devicee-width, initial-scale=1" />
-        <link
-          rel="shortcut icon"
-          href="public/favicon.ico"
-          type="image/x-icon"
-        />
-        <meta content="Serena Xin" property="og:title" />
+        <meta name="description" content="Serena's Homepage" />
+        <meta name="author" content="Serena Xin" />
+        <meta name="author" content="ajisairen" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta property="og:url" content="https://ajisairen.github.io/" />
+        <meta name="theme-color" content="#9576BC" data-react-helmet="true" />
+        <meta name="og:title" content="Serena Xin" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="images/card.png" />
         <meta
-          content="Serena's Personal Portfolio Website"
           property="og:description"
+          content="Welcome to my personal portfolio website"
         />
-        <meta content="https://ajisairen.github.io/" property="og:url" />
-        <meta content="images/card.png" property="og:image" />
-        <meta content="#9576BC" data-react-helmet="true" name="theme-color" />
         <title>Serena Xin - Homepage</title>
       </Head>
 
