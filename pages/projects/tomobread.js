@@ -5,7 +5,7 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList
+//   UnorderedList
   // AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -24,7 +24,7 @@ const Project = () => (
           src="/images/projects/tomobread_card.gif"
           alt="Title card for Tomobread"
         />
-        <P>Winner of MadHacks 2024 Hackers' Choice Award </P>
+        <P>Winner of MadHacks 2024 Hackers&apos; Choice Award </P>
         <P>
           TomoBread is an accountability app that takes inspiration from virtual
           pets like the Tamagotchi line of products. With TomoBread, users will
