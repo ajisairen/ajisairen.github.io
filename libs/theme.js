@@ -32,7 +32,7 @@ const components = {
   Modal: {
     baseStyle: props => ({
       dialog: {
-        bg: mode('#f0e7db', '#202023')(props),
+        bg: mode('#f0e7db', '#202023')(props)
       }
     })
   }

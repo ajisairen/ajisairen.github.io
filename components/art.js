@@ -44,7 +44,13 @@ export const ArtImage = ({ src, alt }) => {
         onClick={onOpen}
         cursor="pointer"
       />
-      <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size={'xl'} isCentered>
+      <Modal
+        closeOnOverlayClick={false}
+        isOpen={isOpen}
+        onClose={onClose}
+        size={'xl'}
+        isCentered
+      >
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>{alt}</ModalHeader>

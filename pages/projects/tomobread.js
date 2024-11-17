@@ -4,8 +4,8 @@ import {
   Stack,
   Link,
   List,
-  ListItem,
-//   UnorderedList
+  ListItem
+  //   UnorderedList
   // AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -42,7 +42,7 @@ const Project = () => (
         <ListItem>
           <Meta>Devpost</Meta>
           <Link href="https://devpost.com/software/tomobread">
-          devpost.com/software/tomobread <ExternalLinkIcon mx="2px" />
+            devpost.com/software/tomobread <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
