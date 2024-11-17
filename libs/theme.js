@@ -35,6 +35,11 @@ const components = {
         bg: mode('#f0e7db', '#202023')(props)
       }
     })
+  },
+  Divider: {
+    baseStyle: props => ({
+      borderColor: mode('#D8C8BC', '#363638')(props)
+    })
   }
 }
 
