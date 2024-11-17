@@ -1,4 +1,4 @@
-import { extendTheme, textDecoration } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
 
 const styles = {
@@ -25,7 +25,7 @@ const components = {
   },
   Link: {
     baseStyle: props => ({
-      color: mode('#3d7aed', 'ff63c3')(props),
+      color: mode('#3d7aed', '#ff63c3')(props),
       textUnderlineOffset: 3
     })
   }
