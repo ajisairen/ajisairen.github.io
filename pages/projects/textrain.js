@@ -4,8 +4,8 @@ import {
   Stack,
   Link,
   List,
-  ListItem
-  // AspectRatio
+  ListItem,
+  AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, /**ProjectImage, **/ Meta } from '../../components/project'
@@ -19,6 +19,15 @@ const Project = () => (
         It&apos;s Raining Helvetica <Badge>Fall 2024</Badge>
       </Title>
       <Stack spacing={4}>
+        <AspectRatio maxW="640px" ratio={1.7} my={4}>
+          <iframe
+            src="https://youtube.com/embed/fYfgbJo7qkU"
+            title="YouTube video player"
+            // frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </AspectRatio>
         <P>
           Assignment #1 for CSCI 4611: Programming Interactive Graphics and
           Games.

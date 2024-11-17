@@ -7,7 +7,7 @@ import Section from '../components/section'
 import { ArtGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 
-import thumbCrochet from '../public/images/thumb_crochet.jpg'
+import thumbCrochet from '../public/images/thumbnails/thumb_crochet.jpg'
 
 const Art = () => {
   return (
