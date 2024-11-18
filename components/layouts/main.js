@@ -15,10 +15,10 @@ const Main = ({ children, router }) => {
         <meta name="theme-color" content="#9576BC" data-react-helmet="true" />
         <meta name="og:title" content="Serena Xin" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="images/card.png" />
+        <meta property="og:image" content="/images/card.png" />
         <meta
           property="og:description"
-          content="Welcome to my personal portfolio website"
+          content="Serena's personal portfolio website"
         />
         <title>Serena Xin - Homepage</title>
       </Head>
