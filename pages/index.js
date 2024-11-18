@@ -96,17 +96,35 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Hello, my name is Serena, and I&apos;m a Junior studying Computer
-            Science at the University of Minnesota-Twin Cities. I&apos;m
-            familiar with Software Development, but I&apos;m working to expand
-            my knowledge into web dev, game design and development, and mobile
-            apps. One of my aspirations is to be able to develop software that
-            is both meaningful and impactful to the world. I&apos;m also a
-            hobbyist artist and enjoy drawing and crocheting in my free time.
+            Science at the University of Minnesota-Twin Cities. I&apos;m always
+            looking to learn new things and develop myself both personally and
+            professionally. I would also love to develop software that is both
+            meaningful and impactful to the world.
           </Paragraph>
-          <Box align="center" my={4}>
+          <Paragraph>
+            I&apos;m familiar with software development, but I&apos;m working to
+            expand my knowledge into web dev, game design and development,
+            mobile apps, and anything else I can get my hands on, really. You
+            can check out what I&apos;ve been working on in my portfolio!
+          </Paragraph>
+          <Box align="center" my={5}>
             <NextLink href="/projects">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My portfolio
+              </Button>
+            </NextLink>
+          </Box>
+          <Paragraph>
+            I&apos;m also a hobbyist artist and enjoy drawing and crocheting in
+            my free time. Creating things has been a passion of mine ever since
+            I learned to use a pencil, and I hope to continue making things in
+            the future. I have some of my art posted on my art page, so feel
+            free to also check it out!
+          </Paragraph>
+          <Box align="center" my={5}>
+            <NextLink href="/art">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                My art
               </Button>
             </NextLink>
           </Box>
@@ -138,7 +156,9 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             I ❤
           </Heading>
-          <Paragraph>Art, Drawing, Crochet, Anime, Video Games</Paragraph>
+          <Paragraph>
+            Creating new things, Art, Drawing, Crochet, Anime, Video Games
+          </Paragraph>
         </Section>
 
         <Section delay={0.4}>
