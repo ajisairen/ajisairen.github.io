@@ -10,6 +10,7 @@ import Layout from '../components/layouts/article'
 import thumbRainingHelvetica from '../public/images/thumbnails/thumb_raining_helvetica.png'
 import thumbDroneSim from '../public/images/thumbnails/thumb_drone_simulation.png'
 import thumbTomoBread from '../public/images/thumbnails/thumb_tomobread.png'
+import thumbIngrained from '../public/images/thumbnails/thumb_ingrained.png'
 
 const Projects = () => {
   return (
@@ -51,6 +52,15 @@ const Projects = () => {
               thumbnail={thumbTomoBread}
             >
               Your new TomoFriend to keep you accountable.
+            </ProjectGridItem>
+            </Section>
+            <Section>
+            <ProjectGridItem
+              id="ingrained"
+              title="Ingrained"
+              thumbnail={thumbIngrained}
+            >
+              Community app for local growers.
             </ProjectGridItem>
           </Section>
           {/* section project etc. here */}
