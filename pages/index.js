@@ -147,6 +147,10 @@ const Page = () => {
             Started studying at the University of Minnesota - Twin Cities.
           </BioSection>
           <BioSection>
+            <BioYear>2025</BioYear>
+            Interned at Target as a Software Engineer.
+          </BioSection>
+          <BioSection>
             <BioYear>2026</BioYear>
             Expected graduation year from the University of Minnesota.
           </BioSection>

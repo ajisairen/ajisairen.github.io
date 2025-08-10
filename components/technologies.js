@@ -12,15 +12,21 @@ const technologies = [
   'vscode-icons:file-type-css',
   'vscode-icons:file-type-typescript',
   'logos:react',
+  'logos:svelte-icon',
+  'logos:flutter',
+  'skill-icons:threejs-light',
+  'logos:material-ui',
   'devicon:chakraui',
   'simple-icons:express',
   'devicon:nextjs',
   'logos:nodejs-icon',
-  'simple-icons:uml',
   'devicon:figma',
+  'logos:adobe-xd',
+  'simple-icons:uml',
   'devicon:git',
   'logos:docker-icon',
-  'devicon:visualstudio'
+  'devicon:visualstudio',
+  
 ]
 
 loadIcons(technologies)
@@ -35,15 +41,21 @@ const technologyNames = {
   'vscode-icons:file-type-css': 'CSS',
   'vscode-icons:file-type-typescript': 'TypeScript',
   'logos:react': 'React',
+  'logos:svelte-icon': 'Svelte',
+  'logos:flutter': 'Flutter',
+  'skill-icons:threejs-light': 'Three.js',
+  'logos:material-ui': 'Material UI',
   'devicon:chakraui': 'ChakraUI',
   'simple-icons:express': 'Express.js',
   'devicon:nextjs': 'Next.js',
   'logos:nodejs-icon': 'NodeJS',
-  'simple-icons:uml': 'UML',
   'devicon:figma': 'Figma',
+  'logos:adobe-xd': "Adobe XD",
+  'simple-icons:uml': 'UML',
   'devicon:git': 'Git',
   'logos:docker-icon': 'Docker',
-  'devicon:visualstudio': 'Visual Studio'
+  'devicon:visualstudio': 'Visual Studio',
+  
 }
 
 export default function Technologies() {
