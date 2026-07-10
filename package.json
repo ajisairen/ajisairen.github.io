@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Serena Xin",
+  "author": "ajisairen",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
